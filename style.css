@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+
 :root{
     --line-border-fill: #3498db;
     --line-border-empty: #e0e0e0;
 }
+
 *{
 box-sizing: border-box;
 }
@@ -49,9 +51,9 @@ body{
     left: 0;
     transform: translateY(-50%);
     height: 4px;
-    width: 50%;
+    width: 0%;
     z-index: -1;
-    transition: 0.4 ease;
+    transition: 0.4s ease;
 }
 
 .circle{
@@ -64,7 +66,7 @@ body{
     align-items: center;
     justify-content: center;
     border: 3px solid var(--line-border-empty);
-    transition: 0.4 ease;
+    transition: .4s ease;
 }
 
 .circle.active{
